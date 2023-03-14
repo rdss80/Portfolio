@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Gloock&family=Tilt+Neon&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh; /*esqueci*/
+  box-sizing: border-box; /*esqueci - fará com que os elementos filhos fiquem contidos no elemento pai*/
+  background-color: #101011;
+  color: #dfdfdf;
+  font-family: "Tilt Neon", cursive;
+}
+
+header {
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #101011;
+  position: fixed;
+  /* margin-left: 80px; */
+}
+
+header img {
+  width: 110px;
+  height: 100px;
+  margin: 20px 20px 20px 80px;
+  
+}
+
+.navigation-bar {
+  /* width: 100%; */
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 20px 0 20px 0px;
+}
+
+.navigation-bar li {
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navigation-bar li a {
+  text-decoration: none;
+  color: #dfdfdf;
+}
+
+.nav-links:hover {
+  color: #4df3fa;
+}
+
+#contact-button {
+  border: #4df3fa 0 solid;
+  padding: 12px 30px 12px 30px;
+  border-radius: 6%;
+  background: rgb(61, 147, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 147, 221, 0.89) 35%,
+    rgba(0, 44, 255, 1) 100%
+  );
+  
+}
+
+#contact-button:hover {
+  color: #4df3fa;
+  background: transparent;
+  border: #4d67fa 2px solid;
+}
+
+
+
+.apresentacao {
+  margin-left: 5rem;
+  padding-top: 200px;
+
+}
+
+#apresentacao__nome {
+  color: grey;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+#apresentacao__titulo {
+  font-family: "Gloock", serif;
+  font-size: 5rem;
+  font-weight: bold;
+  width: 45%;
+  margin-bottom: 3rem;
+}
+
+#apresentacao__ponto {
+  color: #4df3fa;
+  font-family: "Climate Crisis", cursive;
+}
+
+#apresentacao__button {
+  color: #dfdfdf;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: #4df3fa 0 solid;
+  padding: 12px 20px 12px 20px;
+  border-radius: 6%;
+  background: rgb(61, 147, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 147, 221, 0.89) 35%,
+    rgba(0, 44, 255, 1) 100%
+  );
+}
+
+#apresentacao__button:hover {
+  color: #4df3fa;
+  margin-bottom: 3rem;
+  background: transparent;
+  border: #4d67fa 2px solid;
+}
+
+
+#about__photo {
+  width: 25%;
+  margin: auto;
+}
+
+.about_me {
+  display: flex;
+  align-items: space-between;
+  margin-top: 2rem;
+  padding: 50px;
+}
+
+.about_me_text {
+  margin: auto 200px auto 250px;
+}
+
+.about_me p {
+  font-size: 1rem;
+  width: auto;
+  padding: 1rem;
+  /* margin-bottom: 1rem; */
+}
+
+.about_me_text h2 {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.hidden-text {
+  display: none;
+}
+
+.about_me a {
+  text-decoration: none;
+  color: #4df3fa;
+}
+
+.links__sobre_mim {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+#resume__button {
+  color: #4df3fa;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border: #4d67fa 2px solid;
+  padding: 12px 20px 12px 20px;
+  border-radius: 6%;
+  background: transparent;
+}
+
+#hire__button {
+  color: #dfdfdf;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border: #4df3fa 0 solid;
+  padding: 12px 20px 12px 20px;
+  border-radius: 6%;
+  background: rgb(61, 147, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 147, 221, 0.89) 35%,
+    rgba(0, 44, 255, 1) 100%
+  );
+}
+
+#hire__button:hover {
+  color: #4df3fa;
+  background: transparent;
+  border: #4d67fa 2px solid;
+}
+
+#resume__button:hover {
+  color: #dfdfdf;
+  background: rgb(61, 147, 221);
+  background: linear-gradient(
+    90deg,
+    rgba(61, 147, 221, 0.89) 35%,
+    rgba(0, 44, 255, 1) 100%
+  );
+
+}
+
+
