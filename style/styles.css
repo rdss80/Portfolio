@@ -12,7 +12,7 @@ body {
   background-color: #101011;
   color: #dfdfdf;
   font-family: "Tilt Neon", cursive;
-}
+  }
 
 header {
   top: 0;
@@ -81,6 +81,26 @@ header img {
   padding-top: 200px;
 
 }
+
+.apresentacao_em_construcao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#apresentacao__em__construcao__titulo {
+  font-size: 2.5rem;
+  font-family: "Gloock", serif;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+#apresentacao__em__construcao__imagem {
+  width: 20%;
+  padding: 2rem;
+  margin: 3rem auto 6rem auto;
+}
+
 
 #apresentacao__nome {
   color: grey;
@@ -212,4 +232,12 @@ header img {
 
 }
 
-
+.rodape {
+  background-color: #4d67fa;
+  color: #dfdfdf;
+  text-align: center;
+  padding: 1.5rem;
+  font-family: "Tilt Neon", cursive;
+  font-size: 1.25rem;
+  min-height: auto;
+  }
