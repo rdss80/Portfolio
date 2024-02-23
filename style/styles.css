@@ -241,4 +241,6 @@ header img {
   font-size: 1.25rem;
   min-height: auto;
   position: fixed;
+  zindex: 1001;
+  
   }
